@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PhishSheild</title>
+  <link rel="icon" href="logo.ico" type="image/x-icon"> 
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="test.js"></script>
+  
+</head>
+<body>
+  <div class="logo-container">
+    <img class="logo" src="logo.png" alt="Logo">
+    <span class="logo-name">PhishSheild</span>
+  </div>
+  <div class="report-container">
+    <h2>Report a Phishing Incident</h2>
+    <form>
+      <label for="email">Email address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phishing-url">Phishing URL:</label>
+      <input type="url" id="phishing-url" name="phishing-url" required>
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" rows="4" cols="50" required></textarea>
+
+      <div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="modal-message">Thank you for reporting us!</p>
+  </div>
+</div>
+
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+  padding: 10px;
+  background-image: url(cyber2.jpg);
+}
+
+/* Style for the logo */
+.logo {
+  width: 70px; /* Adjust width as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust margin as needed */
+  border-radius: 50%; /* Make the logo rounded */
+  border: 4px solid #f09c09; /* Border color for the logo */
+}
+
+.logo-name {
+  color: #f2f2f2;
+  font-weight: bold; /* Increase font weight for better visibility */
+  font-size: 20px; /* Adjust font size as needed */
+}
+
+.report-container {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .report-container h2 {
+    margin-top: 0;
+  }
+  
+  .report-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .report-container label {
+    margin-top: 10px;
+  }
+  
+  .report-container input,
+  .report-container textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  .report-container button {
+    background-color: rgb(220, 33, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+
+  .report-container button:hover {
+    background-color: rgb(218, 116, 116); /* Light red color */
+}
+
+
+
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
